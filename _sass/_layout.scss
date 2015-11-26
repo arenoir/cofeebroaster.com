@@ -188,11 +188,16 @@
 }
 
 .home {
+    .col50 {
+        float: left;
+        width: 50%;
+    }
+
+    .align-right {
+        text-align: right;
+    }
+
     overflow: hidden;
     padding: 15px 0 25px 0;
 
-    img {
-        float: left;
-        margin-right: 20px;
-    }
 }
