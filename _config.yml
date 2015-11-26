@@ -2,10 +2,8 @@
 title: "Foxhound Espresso"
 email: your-email@domain.com
 subtitle: "Espresso & Coffee Broaster"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+baseurl: "/cofeebroaster.com"
+url: "http://cofeebroaster.com"
 
 # Build settings
 markdown: kramdown
