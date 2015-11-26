@@ -145,13 +145,13 @@
 }
 
 .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+    width:         calc(30% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+    width:         calc(35% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
@@ -200,4 +200,18 @@
     overflow: hidden;
     padding: 15px 0 25px 0;
 
+}
+
+.map-link {
+    padding: 3px;
+    border: 1px solid #ccc;
+    display: block;
+
+    .map {
+        width: 100%;
+        height: 150px;
+        background: url("http://maps.googleapis.com/maps/api/staticmap?center=317+Spring+Street+Nevada+City+Ca&zoom=17&scale=false&size=400x400&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:A%7C317+Spring+Street+Nevada+City+Ca");
+        background-position: center center;
+        overflow: hidden;
+    }
 }
