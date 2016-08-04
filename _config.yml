@@ -2,7 +2,7 @@
 title: "FoxHound"
 email: shop@coffeebroaster.com
 subtitle: "Espresso & Coffee Broaster"
-baseurl: "/cofeebroaster.com"
+baseurl: "/"
 url: "http://cofeebroaster.com"
 google_api_key: AIzaSyCdmB9BSdcGUsfqTRNJgWxI1cPPx-pvPo8
 google_api_project_id: coffee-broasters
