@@ -235,8 +235,8 @@
 
     .map {
         width: 100%;
-        height: 150px;
-        background: url("http://maps.googleapis.com/maps/api/staticmap?center=317+Spring+Street+Nevada+City+Ca&zoom=16&scale=false&size=400x400&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:A%7C317+Spring+Street+Nevada+City+Ca&project=#{$google_api_project_id}&key=#{$google_api_key}");
+        height: 200px;
+        background: url("http://maps.googleapis.com/maps/api/staticmap?center=317+Spring+Street+Nevada+City+Ca&zoom=16&scale=false&size=600x400&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:A%7C317+Spring+Street+Nevada+City+Ca&project=#{$google_api_project_id}&key=#{$google_api_key}");
         background-position: center center;
         overflow: hidden;
     }
