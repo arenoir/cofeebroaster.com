@@ -2,52 +2,50 @@
 
   <div class="wrapper">
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-1">
+    <div class="row">
+      <div class="col-6">
+        <h3>Contact</h3>
+        <div class="row">
+          <div class="col-6 no-gutter-left">
+            <a class="map-link" href="https://www.google.com/maps/place/317+Spring+St,+Nevada+City,+CA+95959/@39.2620732,-121.0218589,17z/data=!3m1!4b1!4m2!3m1!1s0x809b7a7056b6dab7:0x80bdce1e9f70219b" target="_blank">
+              <div class="map"></div>
+            </a>
+          </div>
+          <div class="col-6">
+            <ul class="contact-list">
+              <li>
+                {{ site.title }} Expresso
+              </li>
+              <li>        
+                <p class="address">
+                  317 Spring Street<br>
+                  Nevada City, Ca 95959</p>
+                </p>
+              </li>  
+              <li>
+                <a href="tel:1-530-265-0200">(530) 265-0200</a>
+              </li>
+              <li>
+                <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+              </li>
+              <li><br/></li>
+              <li>
+                <strong>Monday - Friday</strong> 7am to 6pm
+              </li>
 
-        <a class="map-link" href="https://www.google.com/maps/place/317+Spring+St,+Nevada+City,+CA+95959/@39.2620732,-121.0218589,17z/data=!3m1!4b1!4m2!3m1!1s0x809b7a7056b6dab7:0x80bdce1e9f70219b" target="_blank">
-          <div class="map"></div>
-        </a>
+              <li>
+                <strong>Saturday & Sunday</strong> 8am to 6pm
+              </li>
 
-
-      </div>
-
-      <div class="footer-col  footer-col-2">
-        <ul class="contact-list">
-          <li>
-            {{ site.title }} Expresso
-          </li>
-          <li>        
-            <p class="address">
-              317 Spring Street<br>
-              Nevada City, Ca 95959</p>
-            </p>
-          </li>  
-
-          <li>
-            <strong>Monday - Friday</strong> 7am to 6pm
-          </li>
-
-          <li>
-            <strong>Saturday & Sunday</strong> 8am to 6pm
-          </li>
-        </ul>
-      </div>
-
-      <div class="footer-col  footer-col-3">
-
-        <ul class="contact-list">
-          <li>
-            <a href="tel:1-530-265-0200">(530) 265-0200</a><b/>
-          </li>
-          <li>
-            <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-          </li>
-        </ul>
-
+            </ul>
+          </div>
       </div>
     </div>
 
+    <div class="col-6">
+      <h3>Mailing list signup.</h3>
+      {% include mailing_list_signup.html %}
+    </div>
   </div>
 
 </footer>

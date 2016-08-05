@@ -57,6 +57,10 @@
         &:not(:first-child) {
             margin-left: 20px;
         }
+
+        &.active {
+            font-weight: bold;
+        }
     }
 
     @include media-query($on-palm) {
@@ -110,10 +114,24 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    background: $footer-bg-color;
     padding: $spacing-unit 0;
     //background: url('/images/footer-bg.png');
     //background: #434343;
+
+
+    h3 {
+        border-bottom: 1px solid $border-color;
+        margin-bottom: 36px;
+        padding-bottom: 15px;
+    }
+
+    .contact-list {
+        li {
+            white-space: nowrap;
+        }
+    }
+
 }
 
 .footer-heading {
@@ -189,18 +207,20 @@
 }
 
 .home, {
+    overflow: hidden;
+    padding: 15px 0 40px 0;
+
+}
+
+.align-right {
+    text-align: right;
+}
+
+.row {
     .col50 {
         float: left;
         width: 50%;
-    }
-
-    .align-right {
-        text-align: right;
-    }
-
-    overflow: hidden;
-    padding: 15px 0 25px 0;
-
+    }  
 }
 
 .calendar {
@@ -209,8 +229,9 @@
 
 .map-link {
     padding: 3px;
-    border: 1px solid #ccc;
+    border: 1px solid $border-color;
     display: block;
+    background: #fff;
 
     .map {
         width: 100%;
