@@ -222,7 +222,8 @@ input[type="submit"] {
     padding: 4px 6px;
     font-size: $base-font-size;
     line-height: $base-line-height;
-    border: 1px solid #ccc;
+    border: 1px solid $border-color;
+    background: $border-color;
 }
     
 
@@ -237,5 +238,5 @@ input[type="email"] {
     color: #333;
     vertical-align: middle;
     margin-right: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid $border-color;
 }
